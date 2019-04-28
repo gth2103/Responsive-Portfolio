@@ -4,6 +4,9 @@
         <title>
             Basic Portfolio
         </title>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
         <link rel='stylesheet' type='text/css' href="./assets/css/style.css">
         <style>
         </style>
@@ -12,20 +15,22 @@
         <div class="background">
             <div id="navbar">
                 <div class="nav-wrapper-about">
-                    <header class="left">
+                    <header class="">
                         Grant Hewlett
                     </header>
-                    <div class="navbar-item">
-                        <a class="navbar-link right" href="./templates/contact.html">Contact</a>
-                    </div>
-                    <div class="navbar-item">
-                        <a class="navbar-link" href="./templates/portfolio.html">Portfolio</a>
-                        <div class="seperator"></div>
-                    </div>
-                    <div class="navbar-item">
-                        <a class="active navbar-link" href="#About">About</a>
-                        <div class="seperator"></div>
-                    </div>
+                    <ul class="navbar-item-group">
+                    <li class="navbar-item">
+                        <a class="active navbar-link-inner" href="#About">About</a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a class="navbar-link-inner" href="./templates/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link-outer" href="./templates/contact.html">Contact</a>
+                    </li>
+
+                    </ul>
                 </div>
             </div>
             <section class="content clearfix">
