@@ -321,4 +321,8 @@ header {
     padding: 30px 30px 30px 30px;
 }
 
+.nav-wrapper-about {
+    margin: 0;
+}
+
 }
